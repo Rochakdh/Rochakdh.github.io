@@ -1,0 +1,111 @@
+html{
+    box-sizing: border-box;
+}
+
+*::before, * ::after
+{
+    box-sizing: inherit;
+}
+
+body{
+    background-image: linear-gradient(to right,rgba(255, 193, 7, 0.6),rgba(253, 126, 20,0.7));
+}
+ 
+
+.major-body-section{
+    margin: 70px 0px;
+    clear: both;
+}
+.main-content-wrap{
+    background-color: white;
+    border-radius: 50px 0 50px 50px; 
+    height: 700px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+.work-display{
+    background-color:white;
+    height: 700px;
+    border-radius: 0 0 50px 0;
+    overflow-y:scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.profile-display{
+    background-color: #f5f8f9;
+    height: 700px;
+    border-radius: 50px;
+    /* position: sticky; */
+    /* flex: 1 1 auto; */
+
+}
+.profile-pic img{
+    height:200px;
+    border-radius: 50px;
+    width:100%;
+    padding:20px;
+    margin-top: 30px;
+    
+}
+.profile-content{
+    height:200px;
+    /* border-radius: 50px; */
+    width:100%;
+    padding:20px;
+}
+.profile-content p{
+    line-height: 1;
+}
+.btn{
+    border-radius: 50px;
+    color:#fff;
+    margin-top: 20px;
+}
+.btn:hover{
+    transition-delay: 0.5s;
+    background-color:rgba(0, 0, 205, 0.6);
+    transition-property: unset;
+    color: #fff;
+    margin-top: 30px;
+}
+.name {
+    font-size: 25px;
+    font-style: bold;
+}
+
+.about-me, .my-work{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top:30px;
+    text-align: justify;
+}
+
+.work-detail{
+    text-align: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 0;
+    height: auto;
+}
+.work-detail h4{
+    margin: 0 0 2px 0 ;
+    font-weight: 600;
+}
+.work-detail p{
+ text-align: justify;    
+ padding: 20px;
+ font-weight: 400;
+}
+.fa-code{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+
+
+
+
